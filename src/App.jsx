@@ -8,12 +8,16 @@ function App() {
     <Router>
       <Box bg="gray.100" py={4}>
         <Flex maxW="container.lg" mx="auto" align="center">
-          <Link as={RouterLink} to="/" fontWeight="bold">John Doe Photography</Link>
+          <Link as={RouterLink} to="/" fontWeight="bold">
+            Swiistogrophy
+          </Link>
           <Spacer />
-          <Link as={RouterLink} to="/upload" ml={4}>Upload</Link>
+          <Link as={RouterLink} to="/upload" ml={4}>
+            Upload
+          </Link>
         </Flex>
       </Box>
-      
+
       <Routes>
         <Route exact path="/" element={<Index />} />
         <Route path="/upload" element={<Upload />} />

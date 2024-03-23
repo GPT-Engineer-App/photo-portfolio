@@ -10,7 +10,7 @@ const Index = () => {
       <Box bg="gray.100" py={16}>
         <Container maxW="container.lg">
           <Heading as="h1" size="2xl" mb={4}>
-            John Doe
+            Swiistogrophy
           </Heading>
           <Text fontSize="xl" mb={8}>
             Professional Photographer
